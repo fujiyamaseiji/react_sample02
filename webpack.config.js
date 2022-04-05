@@ -4,7 +4,7 @@ module.exports = (env = {}) => {
       rules: [
         {
           test: /\.scss$/,
-          use: ["css-loader", "style-loader", "sass-loader"]
+          use: ["css-loader", "style-loader", "sass-loader", "scss-loader"]
         }
       ]
     }

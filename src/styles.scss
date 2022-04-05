@@ -1,9 +1,28 @@
+$moji:black;
+
 body {
+  padding: 10px;
   font-family: sans-serif;
-}
-h1{
-  color: black;
+  h1{
+    color:rgb(47, 69, 110);
+  }
+  a{
+    text-decoration: none;
+    color: rgb(45, 102, 139);
+    &::after{
+      content: '<';
+    }
+  }
 }
 section{
-  color:aqua;
+  width: 80%;
+  background-color: rgb(210, 221, 230);
+  margin: 0 auto;
+  padding: 10px 10px 50px 10px;
+  color:$moji;
+  ul{padding-left: 0;
+    li{
+      list-style: none;
+    }
+  }
 }
